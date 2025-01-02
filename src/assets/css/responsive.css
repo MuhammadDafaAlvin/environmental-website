@@ -35,9 +35,18 @@
 /* Handphone */
 @media only screen and (max-width: 468px) {
   html {
-    font-size: 70%;
+    font-size: 75%;
   }
+
+  main .hero {
+    height: 90vh;
+  }
+
   main .manfaat .header-manfaat .apa-saja {
     width: 25rem;
+  }
+
+  footer {
+    border-radius: 3rem 3rem 0rem 0rem;
   }
 }

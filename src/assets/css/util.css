@@ -1,9 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@font-face {
+  font-family: sf-bold;
+  src: url("../font/SFPRODISPLAYBOLD.OTF.otf");
+}
+@font-face {
+  font-family: sf-regular;
+  src: url("../font/SFPRODISPLAYREGULAR.OTF.otf");
+}
 
 html {
   scroll-behavior: smooth;
   background-color: rgb(255, 255, 255);
-  font-family: "Archivo";
+  font-family: sf-regular;
 }
 
 * {
